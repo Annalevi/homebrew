@@ -1,0 +1,116 @@
+{
+    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+
+    "_meta": {
+        "sources": [
+            {
+                "json": "mYpIxIe",
+                "abbreviation": "MPX",
+                "full": "Pixie Species",
+                "authors": [
+                    "anna"
+                ],
+                "convertedBy": [
+                    "anna"
+                ],
+                "version": "1.0",
+                "color": "FFC0CB",
+                "url": "none",
+                "targetSchema": "1.2",
+                "hidden": true
+            }
+        ],
+        "dateAdded": 1704999767,
+        "dateLastModified": 1704999767
+    },
+    "race": [
+        {
+        "name": "Pixie",
+        "source": "mYpIxIe",
+        "page": 0,
+        "lineage": "VRGR",
+        "size": [
+            "T"
+        ],
+        "speed": {
+            "walk": 30,
+            "fly" : true
+        },
+        "darkvision": 60,
+        "traitTags": [
+            "Language Proficiency"
+        ],
+        "additionalSpells": [
+            {
+                "innate": {
+                    "3": {
+                        "daily": {
+                            "1": [
+                                "disguise self"
+                            ]
+                        }
+                    },
+                    "5": {
+                        "daily": {
+                            "1": [
+                                "enlarge/reduce"
+                            ]
+                        }
+                    }
+                },
+                "ability": {
+                    "choose": [
+                        "int",
+                        "wis",
+                        "cha"
+                    ]
+                },
+                "known": {
+                    "1": [
+                        "druidcraft#c"
+                    ]
+                }
+            }
+        ],
+        "languageProficiencies": [
+            {
+                "common": true,
+                "sylvan": true
+            }
+        ],
+        "entries": [
+            {
+                "type": "entries",
+                "name": "Creature Type",
+                "entries": [
+                    "You are a Fey."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Pixie Magic",
+                "entries": [
+                    "You know the {@spell druidcraft} cantrip. Starting at 3rd level, you can cast the {@spell disguise self} spell with this trait. Starting at 5th level, you can also cast the {@spell enlarge/reduce} spell with this trait. Once you cast {@spell disguise self} or {@spell enlarge/reduce} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+                    "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Hidden Step",
+                "entries": [
+                    "As a bonus action, you can magically turn {@condition invisible} until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+                ]
+            },
+            {
+                "type": "entries",
+                "name": "Flight",
+                "entries": [
+                    "Because of your wings, you have a flying speed equal to your walking speed."
+                ]
+            }
+        ],
+        "fluff": {}
+        
+    }
+]
+}
